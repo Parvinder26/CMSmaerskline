@@ -209,7 +209,6 @@ C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\Owi
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\System.Web.Optimization.dll
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\System.Web.Providers.dll
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\WebGrease.dll
-C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\itextsharp.xml
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\Microsoft.AI.Web.xml
@@ -235,6 +234,5 @@ C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\Mic
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\obj\Debug\humanresource1.csprojResolveAssemblyReference.cache
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\obj\Debug\humanresource1.dll
 C:\Users\Arsalan\Desktop\DDAC\parvin\github\CMSmaerskline\humanresource1\obj\Debug\humanresource1.pdb

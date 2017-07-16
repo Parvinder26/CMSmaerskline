@@ -227,6 +227,9 @@
     <Content Include="leave-application-7510407.jpg" />
     <Content Include="leave-holiday-management-system-250x250.png" />
     <Content Include="Maersk_container_2 %281%29.png" />
+    <Content Include="Scripts\bootstrap.css" />
+    <Content Include="Scripts\bootstrap.min.css" />
+    <Content Include="Scripts\Site.css" />
     <Content Include="sss.png" />
     <Content Include="Submitshipment.aspx" />
     <Content Include="lock-IP.jpg" />
