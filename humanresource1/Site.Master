@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="humanresource1.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <%--<meta charset="utf-8" />--%>
+    <title><%: Page.Title %> - HUMAN RESOURCE MANAGEMENT SYSTEM</title>
+    <asp:PlaceHolder runat="server">     
+          <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>  
+  
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <style type="text/css">
+
+        .auto-style1
+        {
+            width: 128%;
+        }
+        .auto-style2
+        {
+            width: 150px;
+            background-color: #FFCC00;
+        }
+        .auto-style4 {
+            color: #201D3F;
+        }
+        .auto-style5 {
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .auto-style6 {
+            height: 60px;
+        }
+        .auto-style7 {
+            background-color: #FFCC00;
+        }
+        .auto-style8 {
+            height: 60px;
+            background-color: #FFCC00;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    
+                    <table class="auto-style1">
+                        <tr>
+                            <td class="auto-style2">&nbsp;</td>
+                            <td class="auto-style7">&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style2" rowspan="2">
+                                <asp:Image ID="Image1" runat="server" ImageUrl="~/Maersk_container_2 (1).png" />
+                            </td>
+                            <td class="auto-style8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style4"><span class="auto-style5">&nbsp;MAERSK CONTAINER MANAGEMENT SYSTEM</span></span></td>
+                            <td class="auto-style6"></td>
+                        </tr>
+                        <a runat="server" href="~/"> 
+                        <tr>
+                            <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:HyperLink ID="HyperLink8" runat="server" Font-Bold="True" Font-Names="Bookman Old Style" Font-Size="Large" Font-Underline="False" ForeColor="#201D3F" NavigateUrl="~/Homepage.aspx">HOME</asp:HyperLink>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:HyperLink ID="HyperLink9" runat="server" Font-Bold="True" Font-Names="Bookman Old Style" Font-Size="Large" Font-Underline="False" ForeColor="#201D3F" NavigateUrl="~/About.aspx">ABOUT US</asp:HyperLink>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a runat="server" href="~/">
+                                <asp:HyperLink ID="HyperLink11" runat="server" Font-Bold="True" Font-Names="Bookman Old Style" Font-Size="Large" Font-Underline="False" ForeColor="#201D3F" NavigateUrl="~/Contact.aspx">CONTACT US</asp:HyperLink>
+                                </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:HyperLink ID="HyperLink12" runat="server" Font-Bold="True" Font-Names="Bookman Old Style" ForeColor="#201D3F" NavigateUrl="~/loginpage.aspx">LOGOUT</asp:HyperLink>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style2">&nbsp;</td>
+                            <td class="auto-style7">&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                    </a>
+                    </a>&nbsp;</p>
+            </div>
+            <div class="float-right">
+                <section id="login">
+                </section>
+                <nav>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+    </div>
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; <%: DateTime.Now.Year %> -mAERSK (Parvinder 2017 )</p>
+            </div>
+        </div>
+    </footer>
+    </form>
+</body>
+</html>
